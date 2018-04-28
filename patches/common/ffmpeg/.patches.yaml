@@ -1,0 +1,7 @@
+repo: electron/vendor/libchromiumcontent/src/third_party/ffmpeg
+patches:
+-
+  owners: ymmuse
+  file: github-ymmuse-feature-avi.patch
+  description:  |
+    support <video></video> plays avi file.

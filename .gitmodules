@@ -1,3 +1,6 @@
 [submodule "electron"]
 	path = electron
 	url = https://github.com/electron/electron.git
+[submodule "vendor/pyyaml"]
+	path = vendor/pyyaml
+	url = https://github.com/yaml/pyyaml.git

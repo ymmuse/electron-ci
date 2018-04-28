@@ -1,0 +1,7 @@
+repo: electron/vendor/libchromiumcontent
+patches:
+-
+  owners: ymmuse
+  file: avi_format0001.patch
+  description:  |
+    support <video></video> plays avi file.

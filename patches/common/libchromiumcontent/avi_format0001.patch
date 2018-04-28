@@ -1,0 +1,13 @@
+diff --git a/chromiumcontent/args/ffmpeg.gn b/chromiumcontent/args/ffmpeg.gn
+index a51531c..bc76658 100644
+--- a/chromiumcontent/args/ffmpeg.gn
++++ b/chromiumcontent/args/ffmpeg.gn
+@@ -3,6 +3,6 @@ is_component_build = false
+ is_debug = false
+ enable_nacl = false
+ enable_widevine = true
+-proprietary_codecs = false
++proprietary_codecs = true
+ is_component_ffmpeg = true
+-ffmpeg_branding = "Chromium"
++ffmpeg_branding = "Chrome"
